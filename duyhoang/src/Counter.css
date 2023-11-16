@@ -1,0 +1,30 @@
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  
+  .counter-value {
+    margin: 0 20px;
+    font-size: 2em;
+    position: relative;
+    bottom: 100px; /* Raises the number up, like the example image */
+  }
+  
+  .counter-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    min-width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
